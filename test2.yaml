@@ -1,0 +1,9 @@
+#How is working lists in yaml files
+Fruits:
+  - Apple
+  - Banana
+  - Orange
+Vegetables:
+  - Carrot
+  - Tomato
+  - Cucumber 
