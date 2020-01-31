@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp-pod
+  labels:
+      app: myapp-pod
+      type: front-end
+spec:
+  containers:
+  - name: nginx-container
+    image: nginx
+
+#kubectl create -f (FileName)
+#kubectl get pods - to see your pods
+#kubectl describe pod PodName - more info about pod
+
